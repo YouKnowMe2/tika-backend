@@ -15,6 +15,25 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('categories.index')" :active="request()->routeIs('categories.index')">
+                        {{ __('Categories') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('divisions.index')" :active="request()->routeIs('divisions.index')">
+                        {{ __('Locations') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('people.index')" :active="request()->routeIs('people.index')">
+                        {{ __('People') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('vaccines.index')" :active="request()->routeIs('vacines.index')">
+                        {{ __('Vaccines') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('vaccination_center.index')" :active="request()->routeIs('vaccination_center.index')">
+                        {{ __('Vaccination_Center') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('registration.index')" :active="request()->routeIs('registration.index')">
+                        {{ __('Registrations') }}
+                    </x-nav-link>
+
                 </div>
             </div>
 
